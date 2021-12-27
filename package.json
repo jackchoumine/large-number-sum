@@ -1,12 +1,14 @@
 {
   "name": "large-number-sum",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "count two large number sum",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js"
   },
-  "keywords": ["large number sum"],
+  "keywords": [
+    "large number sum"
+  ],
   "author": "jackchoumine <jackzhoumine@gmail.com;jackchou4job@163.com>",
   "license": "MIT",
   "devDependencies": {
