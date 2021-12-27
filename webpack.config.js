@@ -2,8 +2,12 @@
  * @Description : webpack 打包库
  * @Date        : 2021-12-27 22:28:14 +0800
  * @Author      : JackChou
- * @LastEditTime: 2021-12-27 23:05:44 +0800
+ * @LastEditTime: 2021-12-27 23:52:01 +0800
  * @LastEditors : JackChou
+ */
+
+/**
+ * @type {import('webpack').Configuration}
  */
 const TerserWebpackPlugin = require('terser-webpack-plugin')
 
@@ -13,7 +17,7 @@ module.exports = {
     'large-number-sum': './src/index.js',
     'large-number-sum.min': './src/index.js',
   },
-  devtool: 'source-map',
+  // devtool: 'none',
   output: {
     filename: '[name].js',
     library: 'largeNumberSum',
@@ -24,6 +28,7 @@ module.exports = {
     //  largeNumberSum(a,b)
     // })
     libraryExport: 'default',
+    clean: true, // 构建之前删除上次构建产物
   },
   optimization: {
     minimize: true,
