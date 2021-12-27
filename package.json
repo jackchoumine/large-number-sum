@@ -13,6 +13,7 @@
   "author": "jackchoumine <jackzhoumine@gmail.com;jackchou4job@163.com>",
   "license": "MIT",
   "devDependencies": {
+    "@soda/friendly-errors-webpack-plugin": "^1.8.1",
     "terser-webpack-plugin": "^5.3.0",
     "webpack": "^5.65.0",
     "webpack-cli": "^4.9.1"

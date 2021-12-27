@@ -2,7 +2,7 @@
  * @Description : webpack 打包库
  * @Date        : 2021-12-27 22:28:14 +0800
  * @Author      : JackChou
- * @LastEditTime: 2021-12-27 23:52:01 +0800
+ * @LastEditTime: 2021-12-28 00:45:42 +0800
  * @LastEditors : JackChou
  */
 
@@ -10,7 +10,7 @@
  * @type {import('webpack').Configuration}
  */
 const TerserWebpackPlugin = require('terser-webpack-plugin')
-
+const FriendlyErrorsWebpackPlugin = require('@soda/friendly-errors-webpack-plugin')
 module.exports = {
   mode: 'none',
   entry: {
@@ -35,4 +35,14 @@ module.exports = {
     // NOTE 只对 min.js 文件压缩
     minimizer: [new TerserWebpackPlugin({ include: /\.min\.js$/ })],
   },
+  // stats: 'error-only',
+  // stats: 'none',
+  stats: {
+    // assets: false, // 默认 true 是否显示构建输出资源
+    // assetsSort: 'size',// 资源大小排序 大的在前
+    builtAt: true, // 显示构建日期信息 默认 false
+    moduleAssets: true,
+    groupAssetsByChunk: true, // 是否按照 chunk 分组
+  },
+  plugins: [new FriendlyErrorsWebpackPlugin()],
 }
