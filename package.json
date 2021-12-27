@@ -1,6 +1,6 @@
 {
   "name": "large-number-sum",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "count two large number sum",
   "main": "index.js",
   "scripts": {
