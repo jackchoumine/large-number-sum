@@ -2,13 +2,13 @@
  * @Description :
  * @Date        : 2021-12-27 22:37:10 +0800
  * @Author      : JackChou
- * @LastEditTime: 2021-12-27 22:55:05 +0800
+ * @LastEditTime: 2021-12-27 23:41:40 +0800
  * @LastEditors : JackChou
  */
 
 export default function add(a, b) {
-  let sizeOfa = a.length - 1
-  let sizeOfb = b.length - 1
+  let sizeOfa = ('' + a).length - 1
+  let sizeOfb = ('' + b).length - 1
   let carry = 0
   let result = ''
   while (sizeOfa >= 0 || sizeOfb >= 0) {
