@@ -1,4 +1,5 @@
 src
+tests
 webpack.config.js
 .history
 NOTE.md
