@@ -4,7 +4,7 @@
   "description": "count two large number sum",
   "main": "index.js",
   "scripts": {
-    "test": "mocha src/tests/index.test.js",
+    "test": "mocha tests/index.test.js",
     "build": "webpack --config webpack.config.js",
     "publish": "npm publish --access public"
   },

@@ -58,3 +58,5 @@ npm info large-number-sum versions # 查看所有版本
 npm i large-number-sum # 安装的不带标签的最新版本
 npm i large-number-sum@beta # 安装带标签beta的最新版
 ```
+
+https://www.jianshu.com/p/91902bae5572

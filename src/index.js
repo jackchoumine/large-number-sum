@@ -2,11 +2,12 @@
  * @Description :
  * @Date        : 2021-12-27 22:37:10 +0800
  * @Author      : JackChou
- * @LastEditTime: 2021-12-28 00:37:30 +0800
+ * @LastEditTime: 2022-01-09 21:48:14 +0800
  * @LastEditors : JackChou
  */
 
-export default function add(a, b) {
+// export default
+function add(a, b) {
   let sizeOfa = ('' + a).length - 1
   let sizeOfb = ('' + b).length - 1
   let carry = 0
@@ -44,3 +45,6 @@ export default function add(a, b) {
 // const a = '99999999999999999999999999999999999999'
 // console.log(a.length) // 38
 // console.log(add(a, '1').length) //39
+module.exports = {
+  add,
+}
