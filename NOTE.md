@@ -59,4 +59,30 @@ npm i large-number-sum # 安装的不带标签的最新版本
 npm i large-number-sum@beta # 安装带标签beta的最新版
 ```
 
-https://www.jianshu.com/p/91902bae5572
+[npm tag](https://www.jianshu.com/p/91902bae5572)
+
+## 单元测试
+
+## commit message 规范
+
+## 生成日志变更记录
+
+## 使用工具自动发布
+
+## Travis 持续集成
+
+[持续集成服务 Travis CI 教程](https://www.ruanyifeng.com/blog/2017/12/travis_ci_tutorial.html)
+
+## README 添加徽标
+
+## 多环境支持
+
+## 参考
+
+[如何编写一个开源的 JavaScript 库](https://www.bilibili.com/video/BV1N34y1B7t6?p=24&spm_id_from=pageDriver)
+
+[2020 年如何写一个现代的 JavaScript 库](https://mp.weixin.qq.com/s/RZI-B9oD45etwjSntEGUtg)
+
+[如何编写一个 JS 开源库](https://github.com/DotHide/starwars-names)
+
+[用持续集成工具 Travis 进行构建和部署](https://www.cnblogs.com/blackpuppy/p/use_travis_to_build_and_deploy.html)
